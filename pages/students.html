@@ -12,20 +12,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script async src="../js/script.js"> </script>
     <title>Студенты</title>
     <link rel="stylesheet" href="..\css\stylestudents.css">
 </head>
 
 <body class="page">
     <header class="header">
-        <img class="logo" src="..\img\logo.svg" alt="логотип">
+        <img class="logo" src="..\img\logo.png" alt="логотип">
         <ul class="menu">
-            <li><a href="../firstpage.html" class="menu-link">Главная</a></li>
+            <li><a href="../index.html" class="menu-link">Главная</a></li>
             <li><a href=".\students.html" class="menu-link">Студенты</a></li>
             <li><a href=".\about.html" class="menu-link">О курсе</a></li>
             <li><a href=".\contacts.html" class="menu-link">Контакты</a></li>
         </ul>
         <a class="login-button">Войти</a>
+        <div class="login-popup">
+
+            <img class="popup-close" alt="закрыть" src="../img/cross.png">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-input" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        
+
+        </div>
 
     </header>
 
@@ -34,15 +47,15 @@
         <h2>Студенты потока 08.02.2020 <img class="icons" src="../img/1234.png"></h2>
         <ul class="gallery">
             <li>
-                <figure> <img class="photo" src="../img/Rectangle 4.png">
-                    <figcaption class="figcaption">Василий Иванов</figcaption>
+                <figure> <img class="photo" src="../img/photos.jpg">
+                    <figcaption class="figcaption"> <a href=".\abouts.html">Василий Иванов</a></figcaption>
                 </figure>
             </li>
 
             <li>
                 <figure>
                     <div class="new">новичок</div>
-                     <img class="photo" src="../img/Rectangle 4.png" alt="фотография Василий Иванов">
+                     <img class="photo" src="../img/photos.jpg" alt="фотография Василий Иванов">
                          <figcaption class="figcaption">Василий Иванов</figcaption>
                 </figure>
 
@@ -50,21 +63,21 @@
 
             <li>
                 <figure>
-                    <img class="photo" src="../img/Rectangle 4.png" alt="фотография Мария Александрова">
+                    <img class="photo" src="../img/photos.jpg" alt="фотография Мария Александрова">
                         <figcaption class="figcaption">Василий Иванов</figcaption>
                 </figure>
             </li>
 
             <li>
                 <figure>
-                    <img class="photo" src="../img/Rectangle 4.png" alt="фотография Мария Александрова">
+                    <img class="photo" src="../img/photos.jpg" alt="фотография Мария Александрова">
                         <figcaption class="figcaption"> Мария Александрова </figcaption>
                 </figure>
             </li>
 
             <li>
                 <figure>
-                    <img class="photo" src="../img/Rectangle 4.png" alt="фотография Мария Александрова">
+                    <img class="photo" src="../img/photos.jpg" alt="фотография Мария Александрова">
                     <figcaption class="figcaption">Василий Иванов</figcaption>
                 </figure>
             </li>

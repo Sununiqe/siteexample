@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <script async src="../js/script.js"> </script>
     <title>О курсе</title>
     <link rel="stylesheet" href="../css/styleabout.css">
     
@@ -15,14 +15,26 @@
 
 <body class="page">
     <header class="header">
-        <img class="logo" src="..\img\logo.svg" alt="логотип">
+        <img class="logo" src="..\img\logo.png" alt="логотип">
         <ul class="menu">
-            <li><a href="../firstpage.html" class="menu-link">Главная</a></li>
+            <li><a href="../index.html" class="menu-link">Главная</a></li>
             <li><a href="./students.html" class="menu-link">Студенты</a></li>
             <li><a href="./about.html" class="menu-link">О курсе</a></li>
             <li><a href="./contacts.html" class="menu-link">Контакты</a></li>           
         </ul>
         <a class="login-button">Войти</a>
+        <div class="login-popup">
+
+            <img class="popup-close" alt="закрыть" src="../img/cross.png">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-input" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        
+
+        </div>
 
     </header>
 
@@ -31,11 +43,12 @@
         <h2>О курсе  <img class="phone" src="../img/123.png"></h2>
         <p>Посмотрите видео о нас </p>
 
-        <video class="video" autoplay loop muted poster="../img/video.png">
+        <iframe class="video" src="https://www.youtube.com/embed/0v7pdd4za6s" allowfullscreen autoplay loop muted poster="../img/video.png">
+            
             <source src="" type="video/mp4">
             <source src="" type="video/webm">
             <p>Your browser doesn't support HTML5 video. Here is a <a href="">link to the video</a> instead.</p>
-        </video>
+        </iframe>
         
 
 

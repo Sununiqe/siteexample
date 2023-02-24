@@ -8,26 +8,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script async src="../js/script.js"> </script>
     <title>Контакты</title>
 </head>
 
 <body class="page">
     <header class="header">
-        <img class="logo" src="..\img\logo.svg" alt="логотип">
+        <img class="logo" src="..\img\logo.png" alt="логотип">
         <ul class="menu">
-            <li><a href="../firstpage.html" class="menu-link">Главная</a></li>
+            <li><a href="../index.html" class="menu-link">Главная</a></li>
             <li><a href="./students.html" class="menu-link">Студенты</a></li>
             <li><a href="./about.html" class="menu-link">О курсе</a></li>
             <li><a href="./contacts.html" class="menu-link">Контакты</a></li>           
         </ul>
         <a class="login-button">Войти</a>
+        <div class="login-popup">
+
+            <img class="popup-close" alt="закрыть" src="../img/cross.png">
+            <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+                <input class="login-input" name="login" type="text" placeholder="Логин" required>
+                <input class="login-input" name="password" type="text" placeholder="Пароль" required>
+                <button class="popup-button" type="submit">Войти</button>
+            </form>
+        
+
+        </div>
 
     </header>
     <main class="content">
 
 <h1>Как нас найти <img class="map1" src="../img/map.png"></h1>
 
-<img class="map2" src="../img/goole-map.png">
+
+
+<iframe class="map2" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d152004.22365894896!2d30.081223705275992!3d59.962261914021134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JDQtNGA0LXRgTog0LMuINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQlNCy0L7RgNGG0L7QstCw0Y8g0L_Quy4sIDIsIDE5MDAwMCAg0KLQtdC7OiArNyAoODEyKSA1NTUtNTUtNTU!5e0!3m2!1sru!2sru!4v1665397067379!5m2!1sru!2sru" 
+frameborder="0" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
 
 <p class="text2">Наши контакты</p>
 <p class="text3">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
